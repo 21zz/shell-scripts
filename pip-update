@@ -1,0 +1,2 @@
+#!/bin/bash
+pip install -U $(pip list -o | sed -e '1,2d'| awk '{print $1}')

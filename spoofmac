@@ -1,0 +1,15 @@
+#!/bin/bash
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+if [ "$#" -ne 1 ]
+  then echo "error: no network inferface specified"
+  echo "specify the network interface like so:"
+  echo "\"spoofmac wlan0\""
+  exit
+fi
+
+systemctl stop NetworkManager
+macchanger -r $1
+systemctl start NetworkManager
