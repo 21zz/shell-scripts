@@ -70,22 +70,6 @@ uses macchanger to unspoof your mac address, i.e. set it back to the real one
 
 ![unspoof example](images/unspoof.png)
 
-## youtube
-play youtube videos in best quality with mpv
-
-### requirements
- * mpv
- * youtube-dl
-   * yt-dlp seems to work a LOT better
-
-### usage
-
-`youtube <link>`
-
-![youtube example](images/youtube.png)
-
-(video resized to fit in my terminal window)
-
 ## targzx
 uses `tar` to extract contents of `.tar.gz` into current directory 
 
@@ -109,3 +93,19 @@ uses `tar` to extract contents of `.tar.bz2` into current directory
 `tarbzx <filename>`
 
 ![tarbzx example](images/tarbzx.png)
+
+## youtube
+play youtube videos in best quality with mpv
+
+### requirements
+ * mpv
+ * youtube-dl
+   * yt-dlp seems to work a LOT better
+
+### usage
+
+`youtube <link>`
+
+![youtube example](images/youtube.png)
+
+(video resized to fit in my terminal window)
