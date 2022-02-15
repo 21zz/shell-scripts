@@ -109,3 +109,15 @@ uses `tar` to extract contents of `.tar.bz2` into current directory
 `tarbzx <filename>`
 
 ![tarbzx example](images/tarbzx.png)
+
+## gpu
+uses nvidia-smi and watch to display some good gpu usage stats
+
+### requirements
+ * nvidia-smi
+
+### usage
+
+`gpu`
+
+![gpu example](images/gpu.png)
