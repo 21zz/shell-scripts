@@ -2,6 +2,8 @@
 collection of shell scripts I use on my computer
 <br>
 put them in /bin/ or /usr/bin or wherever you want to as long as it's in PATH
+<br>
+you can also use them as aliases, if you wish
 
 ## nuke
 sends SIGKILL to all processes with the name you put in as an arg.
