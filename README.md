@@ -123,3 +123,17 @@ uses nvidia-smi and watch to display some good gpu usage stats
 `gpu`
 
 ![gpu example](images/gpu.png)
+
+## shellcode
+uses objdump and some formatting magic to output shellcode for a binary file
+<br>
+[source](https://www.commandlinefu.com/commands/view/6051/get-all-shellcode-on-binary-file-from-objdump)
+
+### requirements
+ * none
+
+### usage
+
+`shellcode <filename>`
+
+![shellcode example](images/shellcode.png)
