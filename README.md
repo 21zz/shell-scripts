@@ -1,7 +1,7 @@
 # Shell Scripts
 collection of shell scripts I use on my arch install
 <br>
-put them in /bin/ or /usr/bin or wherever you want to as long as it's in PATH
+i suggest putting them in ~/.local/bin but you can put them wherever you want to as long as it's in PATH
 <br>
 you can also use them as aliases, if you wish
 
